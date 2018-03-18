@@ -1,0 +1,13 @@
+{
+	"name": "No imgur redirect",
+	"manifest_version": 2,
+	"version": "1.0.0",
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://i.imgur.com/*"
+	],
+	"background": {
+		"scripts": ["no-imgur-redirect.js"]
+	}
+}
